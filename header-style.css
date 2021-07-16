@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1{text-transform: capitalize;}
+div.header-page
+{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(books.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body
+{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.main-nav li
+{
+    float: left;
+}
+.main-nav li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 40px;
+    margin-left: 4px;
+    
+}
+.main-nav li a:hover{
+
+    border-bottom: 4px solid white;    
+
+}
+.logo
+{
+    height: 150px;
+    width:auto;
+    position: relative;
+    left: -40px;
+    top: -10px;
+
+}
+.r-u-ready h1
+{
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+}
+.button
+{
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.btn
+{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: white;
+}
+.btn-1
+{
+    background-color: rgb(133, 133, 0);
+}
+.btn:hover
+{
+    color: black;
+    background-color: white;
+}
+.page-show-case
+{
+    height: 100vh;
+    background-color: rgb(190, 190, 190);
+}
+div .showcase
+{
+    height: 200px;
+    background-color: white;
+    border-left: 4px orange solid;
+    float: left;
+
+}
+
